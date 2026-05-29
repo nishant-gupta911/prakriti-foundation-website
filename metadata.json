@@ -1,0 +1,6 @@
+{
+  "name": "Prakriti Grassroots Foundation",
+  "description": "A beautiful, responsive website for the Prakriti Grassroots Foundation, a grassroots environmental and livelihood NGO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
