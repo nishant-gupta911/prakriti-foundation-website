@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import type { FormEvent } from 'react';
 
 export default function Join() {
   const [donationAmount, setDonationAmount] = useState(1000);
@@ -12,12 +13,12 @@ export default function Join() {
     setShowDonationSuccess(false);
   };
 
-  const handleDonationSubmit = (e: React.FormEvent) => {
+  const handleDonationSubmit = (e: FormEvent) => {
     e.preventDefault();
     setShowDonationSuccess(true);
   };
 
-  const handleVolunteerSubmit = (e: React.FormEvent) => {
+  const handleVolunteerSubmit = (e: FormEvent) => {
     e.preventDefault();
     setShowVolunteerSuccess(true);
   };
